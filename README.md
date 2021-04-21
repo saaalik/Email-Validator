@@ -19,20 +19,20 @@ A simple program which checks for Email Address Validity in three simple checks
 
 ---------------------------------------------------------------------
 ## TESTCASES
-```
+```python
 #INPUT
 mdsaaalikgmalia.com
 #OUTPUT
 Check 1 FAILED! Bad Syntax, Invalid Email!
 ```
-```
+```python
 #INPUT
 mdsaaalik@gmalia.com
 #OUTPUT
 Check 1 (Syntax) Passed
 Check 2 FAILED! The domain gmalia.com does not exist, Invalid Email!
 ```
-```
+```python
 #INPUT
 salik_invalid@gmail.com
 #OUTPUT
@@ -40,7 +40,7 @@ Check 1 (Syntax) Passed
 Check 2 (DNS - gmail-smtp-in.l.google.com.) Passed
 Check 3 FAILED! The user salik_invalid does not exist, Invalid Email!
 ```
-```
+```python
 #INPUT
 mdsaaalik@gmail.com
 #OUTPUT
@@ -49,7 +49,7 @@ Check 2 (DNS - alt4.gmail-smtp-in.l.google.com.) Passed
 Check 3 (SMTP response) Passed
 mdsaaalik@gmail.com is a VALID email address!
 ```
-```
+```python
 #INPUT
 mdsaaalik@yahoo.com
 #OUTPUT
